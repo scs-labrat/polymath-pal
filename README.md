@@ -191,15 +191,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 Thank you for your interest in Polymath Pal! May your love of learning flourish.
 ```
-
-**Key things to customize in this README:**
-
-1.  **`[![Streamlit]...](YOUR_STREAMLIT_APP_URL_HERE)`:** If you deploy your app, replace `YOUR_STREAMLIT_APP_URL_HERE` with the actual URL.
-2.  **`## 🚀 Live Demo / Screenshots`:** Add a GIF or screenshots if you have them. Update the live demo link.
-3.  **`git clone https://github.com/YOUR_USERNAME/polymath-pal.git`:** Replace `YOUR_USERNAME/polymath-pal.git` with your actual repository URL.
-4.  **`polymath_pal.py`:** If your main script file has a different name, update it in the "How to Run" section.
-5.  **`[LICENSE.md]`:** If you add a `LICENSE.md` file (e.g., by copying the MIT license text into it), this link will work. Otherwise, you can just state "MIT License."
-6.  **Environment Variables for Local Dev:** The script currently relies on sidebar input for the API key. If you modify it to *also* pick up from `.env` for local convenience (using `load_dotenv()` from `python-dotenv`), then the `.env` instructions are directly applicable. If not, you might want to rephrase that part slightly to emphasize sidebar input or setting system environment variables.
-7.  **Gemini Models:** The model list in the sidebar includes some preview models like `"gemini-2.5-pro-preview-05-06"`. Ensure these are models you intend for users to select and that they are generally available or accessible via the API key type users would have.
-
-This README provides a solid starting point. Feel free to adapt and expand it further as your project evolves!
