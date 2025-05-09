@@ -1,0 +1,19 @@
+# .streamlit/config.toml
+
+[theme]
+# Primary accent color for interactive elements.
+primaryColor = "#58a6ff"  # Your --accent-primary (blue)
+
+# Background color for the main content area.
+backgroundColor = "#0d1117" # Your --bg-primary
+
+# Background color for sidebar and most interactive widgets.
+secondaryBackgroundColor = "#161b22" # Your --bg-secondary
+
+# Color used for almost all text.
+textColor = "#c9d1d9" # Your --text-primary
+
+# Font family for all text in the app, except code blocks.
+# Options: "sans serif", "serif", or "monospace".
+# We'll use "sans serif" to be closest to 'Inter'.
+font = "sans serif"

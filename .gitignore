@@ -1,0 +1,51 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore compiled files
+*.so
+*.dll
+*.out
+*.o
+*.a
+*.class
+
+# Ignore project-specific config
+*.sublime-workspace
+*.vscode/
+
+# Ignore .learnstuff directory or file
+.learnstuff
+
+# Ignore node modules (if using Node.js)
+node_modules/
+
+# Ignore dist/build folders (for many project types)
+dist/
+build/
